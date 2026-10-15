@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Hello!</title>
+        <style>
+            ul > li { 
+                color: blue;
+            } 
+            /*The "ul > li" selector is a child combinator that selects elements that are direct children of a specified element. In this case, it selects all <LI> elements that are direct children of a <UL> element. */
+        </style>
+    </head>
+    <body>
+        <ol> <!--ol is an ordered list, which means that the items in the list will be numbered. Each item in the list is represented by a <LI> (list item) element. The <OL> element can also have attributes such as "type" to specify the numbering style (e.g., "1" for numbers, "A" for uppercase letters, "a" for lowercase letters, "I" for uppercase Roman numerals, and "i" for lowercase Roman numerals). -->
+            <li>list item one</li> <!--The <LI> element is used to define an item in a list. It can be used within both ordered lists (<OL>) and unordered lists (<UL>). Each <LI> element represents a single item in the list, and it can contain text, images, links, or other HTML elements. -->
+            <li>list item two</li>
+            <ul> <!--ul is an unordered list, which means that the items in the list will not be numbered. Each item in the list is represented by a <LI> (list item) element. The <UL> element can also have attributes such as "type" to specify the bullet style (e.g., "disc" for a solid circle, "circle" for an outline circle, and "square" for a solid square). -->
+                <li>sublist item one</li>
+                <li>sublist item two</li>
+             </ul>
+             <li>list item three</li>
+        </ol>
+    </body>
+</html>
